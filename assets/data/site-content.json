@@ -26,7 +26,44 @@
       "description": "A collection of smaller experiments focused on turning ideas into working interactions and systems."
     }
   ],
-  "music": [],
+  "music": [
+    {
+      "type": "ARTCORE",
+      "status": "IN DEVELOPMENT",
+      "title": "The Light Is Back",
+      "description": "An emotional, uplifting artcore composition led by piano and orchestral strings, shaped around an E Lydian sound."
+    },
+    {
+      "type": "COMPOSITION",
+      "status": "IN DEVELOPMENT",
+      "title": "Timeless Flight",
+      "description": "An original piece currently taking shape, with its own musical identity and direction."
+    },
+    {
+      "type": "CINEMATIC CUE",
+      "status": "IN DEVELOPMENT",
+      "title": "Until We Meet Again",
+      "description": "A short, magical and mysterious cinematic piece imagined for a quiet cutscene and a moment of hopeful reunion."
+    },
+    {
+      "type": "COMPOSITION",
+      "status": "IN DEVELOPMENT",
+      "title": "A Sight I'll Never Forget",
+      "description": "A developing composition centered around F-sharp, exploring a distinct melodic atmosphere."
+    },
+    {
+      "type": "MUSICAL SKETCH",
+      "status": "IN DEVELOPMENT",
+      "title": "Before Tomorrow",
+      "description": "A musical idea built around a recurring six-note motif, serving as the foundation for a larger piece."
+    },
+    {
+      "type": "GAME SCORE",
+      "status": "IN DEVELOPMENT",
+      "title": "Grammaria — Boss Theme",
+      "description": "An energetic, dramatic theme for a game encounter, built around bold piano writing and layered strings."
+    }
+  ],
   "writing": [],
   "socialLinks": [
     {
