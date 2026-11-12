@@ -23,6 +23,7 @@
     })
     .then((content) => {
       if (socialLinksTarget && Array.isArray(content.socialLinks)) {
+        socialLinksTarget.replaceChildren();
         for (const social of content.socialLinks) {
           const link = document.createElement("a");
           link.href = social.url;
