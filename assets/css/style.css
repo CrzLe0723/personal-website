@@ -684,3 +684,27 @@ h1,h2,h3,p {
     padding-top: 8px;
   }
 }
+
+.project-status {
+  margin-top:18px;
+  font-size:.68rem;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+
+.project-link {
+  display:inline-block;
+  margin-top:18px;
+  color:var(--blue);
+  font-size:.84rem;
+  font-weight:600;
+  text-decoration:none;
+  border-bottom:1px solid var(--line);
+  padding-bottom:3px;
+}
+
+.project-link:hover {
+  border-color:var(--blue);
+}
+
