@@ -71,17 +71,53 @@
         target.append(empty);
         return;
       }
+
       for (const entry of entries) {
         const card = document.createElement("article");
         card.className = "content-card";
-        const type = document.createElement("p");
-        type.className = "eyebrow";
-        type.textContent = entry.type || "FEATURED";
-        const title = document.createElement("h2");
-        title.textContent = entry.title;
-        const description = document.createElement("p");
-        description.textContent = entry.description;
-        card.append(type, title, description);
+
+        if (page === "projects") {
+          const category = document.createElement("p");
+          category.className = "eyebrow";
+          category.textContent = entry.category || "PROJECT";
+
+          const title = document.createElement("h2");
+          title.textContent = entry.title;
+
+          const description = document.createElement("p");
+          description.textContent = entry.description;
+
+          card.append(category, title, description);
+
+          if (entry.status) {
+            const status = document.createElement("p");
+            status.className = "project-status";
+            status.textContent = entry.status;
+            card.append(status);
+          }
+
+          if (entry.url) {
+            const link = document.createElement("a");
+            link.className = "project-link";
+            link.href = entry.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = "View project";
+            card.append(link);
+          }
+        } else {
+          const type = document.createElement("p");
+          type.className = "eyebrow";
+          type.textContent = entry.type || "FEATURED";
+
+          const title = document.createElement("h2");
+          title.textContent = entry.title;
+
+          const description = document.createElement("p");
+          description.textContent = entry.description;
+          card.append(type, title, description);
+        }
+
         target.append(card);
       }
     })
