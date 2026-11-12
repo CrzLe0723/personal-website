@@ -20,15 +20,29 @@ For now, edit `assets/data/site-content.json` directly in GitHub.
 - Add writing entries to the `writing` array.
 - Update the `about.paragraphs` array for the About page.
 
-Each entry can use this structure:
+Music and writing entries can use this structure:
 
 ```json
 {
-  "type": "PROJECT",
-  "title": "A project title",
+  "type": "FEATURED",
+  "title": "A title",
   "description": "A short description."
 }
 ```
+
+Project entries support a little more detail:
+
+```json
+{
+  "category": "SOFTWARE",
+  "status": "IN DEVELOPMENT",
+  "title": "A project title",
+  "description": "A short description.",
+  "url": "https://example.com"
+}
+```
+
+For projects, `category` and `status` are optional labels, and `url` is an optional external link. Omit fields that do not apply. Projects can represent finished work, works in progress, or experiments.
 
 Keep the JSON valid: use double quotes and separate entries with commas.
 
