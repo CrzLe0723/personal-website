@@ -116,6 +116,23 @@
           const description = document.createElement("p");
           description.textContent = entry.description;
           card.append(type, title, description);
+
+          if (entry.status) {
+            const status = document.createElement("p");
+            status.className = "content-status";
+            status.textContent = entry.status;
+            card.append(status);
+          }
+
+          if (entry.url) {
+            const link = document.createElement("a");
+            link.className = "project-link";
+            link.href = entry.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = entry.linkLabel || (page === "music" ? "Listen" : "View details");
+            card.append(link);
+          }
         }
 
         target.append(card);
