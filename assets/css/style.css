@@ -645,3 +645,42 @@ h1,h2,h3,p {
   }
 
 }
+
+.site-footer {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: .8rem;
+  transition: color .2s;
+}
+
+.social-links a:hover {
+  color: var(--green);
+}
+
+.social-links svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+@media(max-width:700px) {
+  .social-links {
+    order: 3;
+    width: 100%;
+    padding-top: 8px;
+  }
+}
