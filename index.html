@@ -20,30 +20,43 @@
       <a href="./about/">About</a><a href="./projects/">Projects</a><a href="./music/">Music</a><a href="./writing/">Writing</a>
     </nav>
   </header>
-  <main>
-    <section class="hero">
-      <div class="hero-main">
-        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> A PERSONAL WEBSITE</p>
-        <h1>Hi, I'm<br><em>Cruz.</em></h1>
-        <p class="hero-copy">I enjoy turning ideas into something meaningful. I'm a programmer, musician, and creative thinker interested in building things, composing music, and exploring new ideas.</p>
-        <div class="hero-actions">
-          <a class="text-link" href="./projects/">Explore my work <span aria-hidden="true">↗</span></a>
-          <a class="quiet-link" href="./about/">Get to know me</a>
+  <main class="home-main">
+    <section class="welcome-panel" aria-labelledby="welcome-title">
+      <p class="eyebrow">WELCOME</p>
+      <h1 id="welcome-title">Hi, I'm Cruz.</h1>
+      <p class="welcome-lead">I enjoy turning ideas into something meaningful.</p>
+      <p class="welcome-copy">I'm a programmer, musician, and creative thinker interested in building things, composing music, and exploring new ideas.</p>
+    </section>
+
+    <section class="personal-panels" aria-label="A portrait and a personal thought">
+      <figure class="portrait-panel">
+        <div class="portrait-placeholder" role="img" aria-label="Placeholder for a portrait photograph">
+          <span class="portrait-mark" aria-hidden="true">CL</span>
+          <span class="portrait-placeholder-label">YOUR PORTRAIT</span>
         </div>
+        <figcaption>A little introduction, beyond the words.</figcaption>
+      </figure>
+      <blockquote class="quote-panel">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p class="quote-placeholder">A personal quote or thought that reflects how I think, create, or approach life.</p>
+        <footer>— Cruz</footer>
+      </blockquote>
+    </section>
+
+    <section class="interests-section">
+      <div class="section-heading">
+        <p class="eyebrow">A FEW THINGS ABOUT ME</p>
+        <h2>Curious by nature.</h2>
       </div>
-      <aside class="hero-aside" aria-label="A few things about me">
-        <div class="orbit-art" aria-hidden="true"><span class="orbit-ring orbit-ring-one"></span><span class="orbit-ring orbit-ring-two"></span><span class="orbit-core"></span><span class="orbit-cross orbit-cross-one"></span><span class="orbit-cross orbit-cross-two"></span></div>
-        <div class="aside-details">
-          <p class="aside-label">A FEW THINGS ABOUT ME</p>
-          <ul><li>Building software and experimenting with code</li><li>Composing music and playing piano</li><li>Chess, sports, and other interests</li><li>Collecting and developing ideas</li></ul>
-          <p class="aside-foot">Curiosity, made tangible.</p>
-        </div>
-      </aside>
+      <div class="interest-list">
+        <span>Programming & building</span>
+        <span>Music & piano</span>
+        <span>Chess & strategy</span>
+        <span>Sports & other interests</span>
+        <span>Ideas & creativity</span>
+      </div>
     </section>
-    <section class="intro-strip">
-      <p>A personal space for the things I make, the ideas I explore, and the interests that shape me.</p>
-      <span class="small-note">A WORK IN PROGRESS</span>
-    </section>
+
     <section class="feature-section">
       <div class="section-heading"><p class="eyebrow">TAKE A LOOK AROUND</p><h2>A little of everything.</h2></div>
       <div class="feature-grid">
