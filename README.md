@@ -24,11 +24,16 @@ Music and writing entries can use this structure:
 
 ```json
 {
-  "type": "FEATURED",
+  "type": "COMPOSITION",
+  "status": "IN DEVELOPMENT",
   "title": "A title",
-  "description": "A short description."
+  "description": "A short description.",
+  "url": "https://example.com",
+  "linkLabel": "Listen"
 }
 ```
+
+For music, `type` identifies the kind of piece, while `status` and `url` are optional. If a URL is provided, `linkLabel` controls the link text; otherwise the music page uses “Listen”. Add links only when a public listening page is available.
 
 Project entries support a little more detail:
 
