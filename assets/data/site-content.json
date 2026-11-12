@@ -5,7 +5,27 @@
       "This website is a home for selected projects and creative work. It will grow over time as I make, learn, and explore."
     ]
   },
-  "projects": [],
+  "projects": [
+    {
+      "category": "SOFTWARE",
+      "status": "IN DEVELOPMENT",
+      "title": "Odelis",
+      "description": "A comprehensive learning and productivity platform bringing planning, organization, and learning together.",
+      "url": "https://github.com/Odelis-app/odelis"
+    },
+    {
+      "category": "GAME DEVELOPMENT",
+      "status": "ONGOING",
+      "title": "MakeCode Arcade",
+      "description": "Game development projects and experiments exploring interactive mechanics, movement, and enemy behavior."
+    },
+    {
+      "category": "PROGRAMMING",
+      "status": "EXPERIMENTS",
+      "title": "Interactive Systems",
+      "description": "A collection of smaller experiments focused on turning ideas into working interactions and systems."
+    }
+  ],
   "music": [],
   "writing": [],
   "socialLinks": [
