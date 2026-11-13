@@ -70,6 +70,12 @@
       "name": "GitHub",
       "url": "https://github.com/CrzLe0723",
       "icon": "github"
+    },
+    {
+      "name": "MakeCode Forums",
+      "url": "https://forum.makecode.com/u/codaknight/",
+      "icon": "makecode",
+      "iconUrl": "https://arcade.makecode.com/static/icons/favicon-32x32.png"
     }
   ]
 }
