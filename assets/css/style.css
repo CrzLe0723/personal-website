@@ -971,8 +971,8 @@ h1,h2,h3,p {
 
 .social-icon-image {
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   object-fit: contain;
   border-radius: 3px;
 }
