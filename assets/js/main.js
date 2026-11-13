@@ -35,8 +35,8 @@
             const icon = document.createElement("img");
             icon.src = social.iconUrl;
             icon.alt = "";
-            icon.width = 18;
-            icon.height = 18;
+            icon.width = 22;
+            icon.height = 22;
             icon.loading = "lazy";
             icon.decoding = "async";
             icon.className = "social-icon-image";
