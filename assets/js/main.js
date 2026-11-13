@@ -31,6 +31,18 @@
           link.rel = "noopener noreferrer";
           link.setAttribute("aria-label", social.name);
 
+          if (social.icon === "makecode" && social.iconUrl) {
+            const icon = document.createElement("img");
+            icon.src = social.iconUrl;
+            icon.alt = "";
+            icon.width = 18;
+            icon.height = 18;
+            icon.loading = "lazy";
+            icon.decoding = "async";
+            icon.className = "social-icon-image";
+            link.append(icon);
+          }
+
           if (social.icon === "github") {
             const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
             icon.setAttribute("viewBox", "0 0 24 24");
