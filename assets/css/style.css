@@ -967,3 +967,12 @@ h1,h2,h3,p {
     margin: 70px auto 85px;
   }
 }
+
+
+.social-icon-image {
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  border-radius: 3px;
+}
